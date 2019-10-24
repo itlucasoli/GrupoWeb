@@ -4,3 +4,9 @@ const joao = {
     console.log(`Olá ${this.nome}`);
   }
 };
+
+const maria = joao;
+maria.nome = "Maria";
+maria.saudacao();
+
+joao.saudacao();
